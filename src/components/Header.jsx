@@ -1,5 +1,18 @@
 import React from "react";
 import styled from "styled-components";
+import {
+  BrowserRouter,
+  BrowserRouter as Router,
+  Route,
+  Switch,
+} from "react-router-dom";
+import { Link } from "react-router-dom";
+
+import App from "../App";
+import Home from "../pages/Home";
+import Projects from "../pages/Projects";
+import Quotes from "../pages/Quotes";
+import BookShelf from "../pages/Bookshelf";
 
 export const Container = styled.div`
   grid-area: header;
@@ -17,6 +30,9 @@ export const Logo = styled.div`
   margin-left: 10px;
   font-size: 40px;
   font-weight: bolder;
+  cursor: pointer;
+  text-decoration: none;
+  list-style-type: none;
 `;
 
 export const Menu = styled.div`
@@ -41,20 +57,28 @@ export const Menu = styled.div`
 const Header = () => {
   return (
     <Container>
-      <Logo>Gustavo Fernandes</Logo>
+      <Logo>
+        <Link to="/" style={{ textDecoration: "none", color: "blueviolet" }}>
+          Gustavo Fernandes
+        </Link>
+      </Logo>
       <Menu>
         <li>
-          <a href="home">Home</a>
+          <Link to="/home">Home</Link>
         </li>
         <li>
-          <a href="bookshelf">Bookshelf</a>
+          <Link to="/quotes">Quotes</Link>
         </li>
-        <li>
-          <a href="quotes">Quotes</a>
-        </li>
-        <li>
+
+        {/* <BrowserRouter>
+          <Route component={Home} path="/" exact />
+          <Route component={BookShelf} path="/bookshelf" />
+          <Route component={Quotes} path="/quotes" />
+        </BrowserRouter> */}
+
+        {/* <li>
           <a href="about">My Projects</a>
-        </li>
+        </li> */}
       </Menu>
     </Container>
   );
