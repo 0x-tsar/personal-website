@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import Header from "./Header";
-import Main from "./Main";
+import Home from "../pages/Home";
+import Bookshelf from "../pages/Bookshelf";
+import Projects from "../pages/Projects";
+import Quotes from "../pages/Quotes";
 
 const BasicCss = styled.div`
   margin: 0;
@@ -27,12 +30,50 @@ export const Container = styled(BasicCss)`
 `;
 
 const Layout = () => {
-  return (
-    <Container>
-      <Header></Header>
-      <Main></Main>
-    </Container>
-  );
+  const [currentPage, setCurrentPage] = useState("Home");
+
+  const changePage = (newPage) => {
+    setCurrentPage(newPage);
+    console.log(`new Page: ${newPage}`);
+  };
+
+  if (currentPage === "Home") {
+    return (
+      <Container>
+        <Header changePage={changePage}></Header>
+        <Home></Home>
+      </Container>
+    );
+  } else if (currentPage === "Quotes") {
+    return (
+      <Container>
+        <Header changePage={changePage}></Header>
+        <Quotes></Quotes>
+      </Container>
+    );
+  } else if (currentPage === "Bookshelf") {
+    return (
+      <Container>
+        <Header changePage={changePage}></Header>
+        <Bookshelf></Bookshelf>
+      </Container>
+    );
+  } else if (currentPage === "Projects") {
+    return (
+      <Container>
+        <Header changePage={changePage}></Header>
+        <Projects></Projects>
+      </Container>
+    );
+  }
 };
 
 export default Layout;
+
+// return (
+//   <Container>
+//     <Header changePage={changePage}></Header>
+//     {/* <Main></Main> */}
+//     <Home></Home>
+//   </Container>
+// );

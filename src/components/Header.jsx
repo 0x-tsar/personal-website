@@ -54,7 +54,7 @@ export const Menu = styled.div`
   }
 `;
 
-const Header = () => {
+const Header = ({ changePage }) => {
   return (
     <Container>
       <Logo>
@@ -64,10 +64,26 @@ const Header = () => {
       </Logo>
       <Menu>
         <li>
-          <Link to="/home">Home</Link>
+          <Link to="/home" onClick={() => changePage("Home")}>
+            Home
+          </Link>
         </li>
         <li>
-          <Link to="/quotes">Quotes</Link>
+          <Link to="/quotes" onClick={() => changePage("Quotes")}>
+            Quotes
+          </Link>
+        </li>
+
+        <li>
+          <Link to="/bookshelf" onClick={() => changePage("Bookshelf")}>
+            Bookshelf
+          </Link>
+        </li>
+
+        <li>
+          <Link to="/projects" onClick={() => changePage("Projects")}>
+            My Projects
+          </Link>
         </li>
 
         {/* <BrowserRouter>
