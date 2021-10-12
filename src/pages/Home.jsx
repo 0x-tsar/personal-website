@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  margin-top: 100px;
+  margin-top: 60px;
   /* justify-content: center; */
   align-items: center;
 `;
@@ -12,9 +12,9 @@ export const Container = styled.div`
 const Home = () => {
   return (
     <Container>
-      <div>salut des amis</div>
+      <div>I'm a self taught programmer </div>
       <br></br>
-      <strong>in construction</strong>
+      <strong>in construction...</strong>
     </Container>
   );
 };

@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import quotes from "../lib/quotes";
+import FetchData from "../api/FetchData";
 
 export const Container = styled.div`
   display: flex;
@@ -13,9 +14,21 @@ export const Holder = styled.div`
 `;
 
 const Quotes = () => {
+  const [randomQuote, setRandomQuote] = useState();
+
+  useEffect(() => {
+    (async () => {
+      const quote = await FetchData();
+      setRandomQuote(quote);
+      console.log(quote);
+      console.log(quote.text);
+    })();
+  }, []);
+
   return (
     <Container>
       <Holder>
+        <br></br>
         {quotes.map((item, k) => {
           return (
             <div key={k}>
@@ -26,6 +39,17 @@ const Quotes = () => {
             </div>
           );
         })}
+
+        <div style={{ left: 200, top: 600, position: "absolute" }}>
+          {randomQuote ? (
+            <div>
+              `{randomQuote.text}` <br></br>
+              <strong>- {randomQuote.author}</strong> <br></br>
+            </div>
+          ) : (
+            <div></div>
+          )}
+        </div>
       </Holder>
     </Container>
   );
