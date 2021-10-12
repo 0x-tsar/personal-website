@@ -40,7 +40,7 @@ const Quotes = () => {
           );
         })}
 
-        <div style={{ left: 200, top: 600, position: "absolute" }}>
+        <div style={{ left: 200, top: 700, position: "absolute" }}>
           {randomQuote ? (
             <div>
               `{randomQuote.text}` <br></br>

@@ -38,7 +38,7 @@ const Bookshelf = () => {
         <br></br>
       </div>
       <div>
-        <p>How to DeFi (Beginer)</p>
+        <p>How to DeFi (Beginner)</p>
         <strong>- Darren Lau </strong>
         <br></br>
         <br></br>
