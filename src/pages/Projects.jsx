@@ -28,7 +28,6 @@ const projects = [
         alt=""
       ></img>
     ),
-    github: "https://github.com/BronzeDisc/clone-ge",
   },
 
   {
@@ -42,6 +41,7 @@ const projects = [
         alt=""
       ></img>
     ),
+    github: "https://github.com/BronzeDisc/clone-ge",
   },
 
   {
@@ -247,6 +247,7 @@ const Projects = () => {
             <div style={{ display: "flex", justifyContent: "center" }}>
               {item.image}
             </div>
+            <br />
             {item.github ? (
               <div>
                 <a href={item.github}>Project repository</a>
