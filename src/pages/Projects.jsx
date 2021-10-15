@@ -14,6 +14,7 @@ export const Container = styled.div`
 export const Post = styled.div`
   margin: 10px;
   font-size: 22px;
+  margin-bottom: 20px;
 `;
 
 const projects = [
