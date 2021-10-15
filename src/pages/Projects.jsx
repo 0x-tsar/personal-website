@@ -21,20 +21,18 @@ const projects = [
     title: "Virtual Ethereum Farm",
     description:
       "Smart Contract built with Solidity and user interface built with HTML, CSS and JQuery.",
-    image: <img src="ggif5.gif" width="650px" height="550px" alt=""></img>,
+    image: <img src="ggif5.gif" width="100%" alt=""></img>,
   },
   {
     title: "Fruit Colorization",
     description:
       "Model built on Python, no Data Augmentation, few samples, not tested on training data despite similar look, they are slightly rotated. (No MaxPooling2D nor UpSampling2D were used, just CNNS and Dense Layers)",
-    image: (
-      <img src="colorization.png" width="700px" height="450px" alt=""></img>
-    ),
+    image: <img src="colorization.png" width="100%" alt=""></img>,
   },
   {
     title: "Money Prediction",
     description: "Model built on Python and samples picked by Android device.",
-    image: <img src="gif8.gif" width="400px" height="700px"></img>,
+    image: <img src="gif8.gif" width="100%"></img>,
   },
 
   {
@@ -67,7 +65,7 @@ const projects = [
   {
     title: "Finding coordinates of object",
     description:
-      "This is a proof-of-concept of a Neural Network finding the object's coordinates with just 900 labeled training dataset and 100 for test (generated randomly). Can <b>EASILY</b> be improved just by increasing the number of samples, the most complex part was cleaning and preparing the data to get just the necessary numbers. All of these squares were generated after the training, none of these are in the training set, so it behaved pretty well by the small amount of samples. This type of concept can have multiple types of utilities because not only it can classify the object but also tell you where it is.",
+      "This is a proof-of-concept of a Neural Network finding the object's coordinates with just 900 labeled training dataset and 100 for test (generated randomly). Can EASILY be improved just by increasing the number of samples, the ones displaying that are not so accurate were purposely picked to show the `worst cases` because the majority of the samples were perfect, the most complex part was cleaning and preparing the data to get just the necessary numbers. All of these squares were generated after the training, none of these are in the training set, so it behaved pretty well by the small amount of samples. This type of concept can have multiple types of utilities because not only it can classify the object but also tell you where it is. ",
     image: <img src="finding.png" width="100%"></img>,
   },
 
@@ -110,23 +108,23 @@ const projects = [
     image: <img src="ggif3.gif"></img>,
   },
 
-  {
-    title: "Sample Picker",
-    description:
-      "Simple sample picker to train later built on Java, data already classified.",
-    image: <img src="ggif2.gif" width="300px" height="550px"></img>,
-  },
+  // {
+  //   title: "Sample Picker",
+  //   description:
+  //     "Simple sample picker to train later built on Java, data already classified.",
+  //   image: <img src="ggif2.gif" width="100%"></img>,
+  // },
 
   {
     title: "Game Store",
     description: "Store built using Java and Firebase. (not finished)",
-    image: <img src="ggif1.gif" width="300px" height="550px"></img>,
+    image: <img src="ggif1.gif" width="100%"></img>,
   },
   {
     title: "Simple History Quiz",
     description:
       "Built on Android, testing knowledge about important figures of History.",
-    image: <img src="gif7.gif" width="400px" height="700px"></img>,
+    image: <img src="gif7.gif" width="100%"></img>,
   },
 
   {
