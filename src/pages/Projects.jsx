@@ -20,7 +20,7 @@ const projects = [
   {
     title: "Virtual Ethereum Farm",
     description:
-      "Smart Contract built with Solidity and user interface built with HTML, CSS and JQuery.",
+      "One of my first DApps built in 2017 with Solidity, HTML, CSS and JQuery.",
     image: (
       <img
         src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/ggif5.gif"
