@@ -42,8 +42,9 @@ const Quotes = () => {
         })}
 
         <div style={{ marginTop: 100, position: "relative" }}>
-          Random quote:
-          <br></br>
+          Random quote{" "}
+          <small>[I do not agree with all of them, this is just for fun]</small>
+          :<br></br>
           <br></br>
           {randomQuote ? (
             <div>
