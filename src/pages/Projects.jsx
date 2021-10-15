@@ -59,7 +59,12 @@ const projects = [
     title: "Tinder Sample Picker",
     description:
       "I'm building a Tinder Bot, but first I need samples to classify my preferences, so I'm WebScrapping Tinder to get each picture and train them later, all the options are being rejected so it doesn't hit the day limit for a free account, so I have access to all the images avaiable, then after training the neural network with more than 30.000 samples, I'm going to delete this account to zero out the score and start again with a trained network with a premium account, having also unlimited picks sliding to right, increasing the database for further use and improvement.",
-    image: <img src="gif11.gif" width="100%"></img>,
+    image: (
+      <img
+        src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/gif11.gif"
+        width="100%"
+      ></img>
+    ),
   },
 
   {
