@@ -22,10 +22,15 @@ export const quotes = [
       "Meekness: Uncommon patience in planning a revenge that is worth while.",
     author: "- Ambrose Bierce",
   },
+
   {
     quote:
       "Reality must take precedence over public relations, for nature cannot be fooled.",
     author: "- Richard P. Feynman",
+  },
+  {
+    quote: "The key to making money is to stay invested.",
+    author: "- Suze Orman",
   },
 ];
 

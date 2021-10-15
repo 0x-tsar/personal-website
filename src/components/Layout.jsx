@@ -14,6 +14,7 @@ const BasicCss = styled.div`
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(249, 238, 227);
+  font-size: 23px;
 `;
 
 export const Container = styled(BasicCss)`

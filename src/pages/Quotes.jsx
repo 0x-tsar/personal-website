@@ -11,6 +11,7 @@ export const Container = styled.div`
 
 export const Holder = styled.div`
   /* margin-top: 200px; */
+  padding: 0 100px;
 `;
 
 const Quotes = () => {
@@ -40,7 +41,10 @@ const Quotes = () => {
           );
         })}
 
-        <div style={{ left: 200, top: 700, position: "absolute" }}>
+        <div style={{ marginTop: 100, position: "relative" }}>
+          Random quote:
+          <br></br>
+          <br></br>
           {randomQuote ? (
             <div>
               `{randomQuote.text}` <br></br>
