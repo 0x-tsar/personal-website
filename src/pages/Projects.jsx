@@ -127,7 +127,7 @@ const projects = [
       "I cloned an Instagram based decentralized project and created my own ERC-20 coin and added to it so I could also tip the photos with this new coin. Also made some changes with ReactJS",
     image: (
       <img
-        src="gs://staging.recycler-teste.appspot.com/gif17.gif"
+        src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/gif17.gif"
         width="100%"
         height="700px"
       ></img>
