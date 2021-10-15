@@ -28,7 +28,22 @@ const projects = [
         alt=""
       ></img>
     ),
+    github: "https://github.com/BronzeDisc/clone-ge",
   },
+
+  {
+    title: "Sports Clone Website",
+    description:
+      "A clone of a known sports website, I used NextJS and styled-components for structuring, still in progress.",
+    image: (
+      <img
+        src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/Captura%20de%20Tela%202021-10-15%20a%CC%80s%2017.55.48.png"
+        width="100%"
+        alt=""
+      ></img>
+    ),
+  },
+
   {
     title: "Fruit Colorization",
     description:
@@ -232,6 +247,14 @@ const Projects = () => {
             <div style={{ display: "flex", justifyContent: "center" }}>
               {item.image}
             </div>
+            {item.github ? (
+              <div>
+                <a href={item.github}>Project repository</a>
+              </div>
+            ) : (
+              <div></div>
+            )}
+
             {/* <img src="./logo512.png" alt="" width={100} /> */}
           </Post>
         );
