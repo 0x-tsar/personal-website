@@ -9,6 +9,7 @@ export const Container = styled.div`
   margin-top: 100px;
   justify-content: center;
   /* align-items: center; */
+  //
 `;
 
 export const Post = styled.div`
