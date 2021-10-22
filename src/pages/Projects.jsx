@@ -18,7 +18,35 @@ export const Post = styled.div`
   margin-bottom: 20px;
 `;
 
+<img src="erc721.gif" width="1500px" height="700px"></img>;
+
 const projects = [
+  {
+    title: "ERC721 Holder built from scratch",
+    description:
+      "In this project I used ReactJS, Truffle, Solidity, NodeJS and Ganache to support the network. A ERC721 Holder you can mint 'random' assets of different colors, in this case the user can Mint tokens for free, just paying the gas to call the function. the website runs perfectly but the program I use to capture the gifs (Giphy) lets the internet slow. I believe CryptoKitties where made similar to this with some mutation instead of random colors, which maybe I will try to replicate for learning purposes.",
+    image: (
+      <img
+        src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/erc721.gif"
+        width="100%"
+        alt=""
+      ></img>
+    ),
+  },
+
+  {
+    title: "Decentralized Video Uploader",
+    description:
+      "In this project I used ReactJS, Truffle, Solidity, NodeJS and Ganache to support the network. It's just like YouTube where you can upload videos and get some tips in Ether and NerdCoin, a ERC20 token I created. The videos are being uploaded to IPFS.((the website runs perfectly but the program I use to capture the gifs (Giphy) lets the internet slow.))",
+    image: (
+      <img
+        src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/gif18.gif"
+        width="100%"
+        alt=""
+      ></img>
+    ),
+  },
+
   {
     title: "Virtual Ethereum Farm",
     description:
