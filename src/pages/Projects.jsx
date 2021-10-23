@@ -27,7 +27,7 @@ const projects = [
       "In this project I used ReactJS, Truffle, Solidity, NodeJS and Ganache to support the network. A ERC721 Holder you can mint 'random' assets of different colors, in this case the user can Mint tokens for free, just paying the gas to call the function. The website runs perfectly but the program I use to capture the gifs (Giphy) slows down the internet. I believe CryptoKitties were made similar to this with some mutation instead of random colors, which maybe I will try to replicate for learning purposes.",
     image: (
       <img
-        src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/erc721.gifg"
+        src="https://photos.google.com/album/AF1QipOTqnMWRNC421nErElASc-lJHQe9jXHJoUaEPop/photo/AF1QipOsqMrzEg8N4flYQvDT8EKw3uFu_ikBAD63CG9u"
         width="100%"
         alt=""
       ></img>
@@ -40,7 +40,7 @@ const projects = [
       "In this project I used ReactJS, Truffle, Solidity, NodeJS and Ganache to support the network. It's just like YouTube where you can upload videos and get some tips in Ether and NerdCoin, a ERC20 token I created. The videos are being uploaded to IPFS. The website runs perfectly but the program I use to capture the gifs (Giphy) slows down the internet.",
     image: (
       <img
-        src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/gif18.gif"
+        src="https://photos.google.com/album/AF1QipOTqnMWRNC421nErElASc-lJHQe9jXHJoUaEPop/photo/AF1QipPh7gohsgaaMDU5imZbmyurNO4KF1ZmqTeEwasr"
         width="100%"
         alt=""
       ></img>
