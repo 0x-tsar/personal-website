@@ -33,10 +33,21 @@ const Quotes = () => {
         {quotes.map((item, k) => {
           return (
             <div key={k}>
-              <p>{item.quote}</p>
-              <strong>{item.author}</strong>
-              <br></br>
-              <br></br>
+              {item.highlighted ? (
+                <span style={{ color: "red", fontWeight: "bolder" }}>
+                  <p>{item.quote}</p>
+                  <strong>{item.author}</strong>
+                  <br></br>
+                  <br></br>
+                </span>
+              ) : (
+                <div>
+                  <p>{item.quote}</p>
+                  <strong>{item.author}</strong>
+                  <br></br>
+                  <br></br>
+                </div>
+              )}
             </div>
           );
         })}

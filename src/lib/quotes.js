@@ -55,6 +55,12 @@ export const quotes = [
     quote: "All models are wrong but some are useful.",
     author: "– Norman draper",
   },
+  {
+    quote:
+      "It is dangerous to be right in matters where established men are wrong.",
+    author: "",
+    highlighted: true,
+  },
 ];
 
 export default quotes;
