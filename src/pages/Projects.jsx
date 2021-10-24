@@ -181,7 +181,7 @@ const projects = [
   {
     title: "Tinder WebScrapping",
     description:
-      "This is a better Tinder bot buit from scratch with new features, now it's able to change cities when no one is found at the city you are located at, the bot changes the city according to the cities I want to go to and starts the process normally again, I also solved a loop problem, after a certain loop time, the bot would break because of 'Inifite Loop', so I created a small loop to go for 600 profiles then break the bigger loop and count one more in the small one, like a small gear moving a bigger one, worked perfectly! in 2 weeks it got more than 1100 matches and goes on non-stop. This bot made more than 4000 matches before I turned it off.",
+      "This is a better Tinder bot buit from scratch with new features, now it's able to change cities when no one is found at the city you are located at, the bot changes the city according to the cities I want to go to and starts the process normally again, I also solved a loop problem, after a certain loop time, the bot would break because of 'Inifite Loop', so I created a small loop to go for 600 profiles then break the small loop and count +1 on the bigger one, like a small gear moving a bigger one, worked perfectly! in 2 weeks it got more than 1100 matches and goes on non-stop. This bot made more than 4000 matches before I turned it off.",
     image: (
       <img src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/gif15.gif"></img>
     ),
