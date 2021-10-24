@@ -32,6 +32,29 @@ export const quotes = [
     quote: "The key to making money is to stay invested.",
     author: "- Suze Orman",
   },
+  {
+    quote: "The true sign of intelligence is not knowledge, but imagination.",
+    author: "- Einstein",
+  },
+
+  {
+    quote: "The present is the fruit of the past and the seed of the future.",
+    author: "– Admiral Rickover Alan Kay",
+  },
+
+  {
+    quote: "If atheism is a religion then not collecting stamps is a hobby.",
+    author: "– Eliezer Yudkowsky",
+  },
+  {
+    quote:
+      "I have almost never made money investing in founders who do not respond quickly to important emails.",
+    author: "– Sam Altman",
+  },
+  {
+    quote: "All models are wrong but some are useful.",
+    author: "– Norman draper",
+  },
 ];
 
 export default quotes;
