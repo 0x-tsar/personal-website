@@ -256,7 +256,7 @@ const projects = [
   {
     title: "Book recomendation System AI based in JS and TF.js",
     description:
-      "Built in Javascript using Tensorflow with Convolutional, MaxPooling2D and Dense layers. Samples had 40x40 in size with 1 gray channel, I removed the other ones because it was too heavy, actually it worked REALLY well as we can see, despite the ilumination. 554 samples were picked, roughly 200 for each book and the rest for NO BOOK and ran through 25 epochs (not even necessary that much)  .I implemented a section in the left side to give the links and price to the books recognized. Also all the computation was made client side, no server was necessary here.",
+      "Built in Javascript using Tensorflow with Convolutional, MaxPooling2D and Dense layers. Samples had 40x40 in size with 1 gray channel, I removed the other ones because it was too heavy, actually it worked REALLY well as we can see, despite the ilumination. 554 samples were picked, roughly 200 for each book and the rest for NO BOOK and ran through 25 epochs (not even necessary that much). I implemented a section on the left side to give the links and price to the books recognized. Also all the computation was made client side, no server was necessary here.",
     image: (
       <img
         src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/gif14.gif"
