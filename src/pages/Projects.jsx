@@ -24,7 +24,7 @@ const projects = [
   {
     title: "Books IPFS/ FLEEK/ BLOCKCHAIN",
     description:
-      "Interacting with IPFS through Fleek and using the blockchain to store information about the book's details.",
+      "Interacting with IPFS through Fleek and using the blockchain to store information about the book's details. Soon will be adding project repository",
     image: (
       <img
         src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/books.png"
