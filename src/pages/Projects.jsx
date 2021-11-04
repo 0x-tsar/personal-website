@@ -22,6 +22,18 @@ export const Post = styled.div`
 
 const projects = [
   {
+    title: "Books IPFS/ FLEEK/ BLOCKCHAIN",
+    description:
+      "Interacting with IPFS through Fleek and using the blockchain to store information about the book's details.",
+    image: (
+      <img
+        src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/books.png"
+        width="100%"
+        alt=""
+      ></img>
+    ),
+  },
+  {
     title: "ERC721 Holder built from scratch",
     description:
       "In this project I used ReactJS, Truffle, Solidity, NodeJS and Ganache to support the network. A ERC721 Holder you can mint 'random' assets of different colors, in this case the user can Mint tokens for free, just paying the gas to call the function. The website runs perfectly but the program I use to capture the gifs (Giphy) slows down the internet. I believe CryptoKitties were made similar to this with some mutation instead of random colors, which maybe I will try to replicate for learning purposes.",
