@@ -7,9 +7,6 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 ReactDOM.render(
   <Router>
-    <header>
-      <title>Gustavo Fernandes</title>
-    </header>
     <React.StrictMode>
       <Layout></Layout>
     </React.StrictMode>
