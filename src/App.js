@@ -1,6 +1,8 @@
 import "./App.css";
 
 function App() {
+  document.title = "Gustavo Fernandes";
+
   return (
     <div className="App">
       <header>
