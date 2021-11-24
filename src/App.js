@@ -3,9 +3,9 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <head>
+      <header>
         <title>Gustavo Fernandes</title>
-      </head>
+      </header>
     </div>
   );
 }
