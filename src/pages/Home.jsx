@@ -18,9 +18,10 @@ const Home = () => {
         &nbsp; I'm a self taught programmer, Currently focusing on the Crytpo
         world. Throughout the years I created Android Apps with Java, models of
         Deep Learning with Python, AI with Javascript, but currently I'm focused
-        on Cryptos using technologies like Web3, Ethers, Truffle, Solidity,
-        Oracles, React, NextJS and so on. I'm now building DeFi and NFT DApps. I
-        also build Backend servers with Node, made some bots with it.
+        on Cryptos using technologies like Web3, Ethers, Truffle, Hardhat,
+        Solidity, Oracles, React, NextJS and so on. I'm now building DeFi and
+        NFT DApps. I also build Backend servers with Node, made some bots with
+        it.
         <br></br>
         <br></br>
         &nbsp; I speak English, French and Portuguese
