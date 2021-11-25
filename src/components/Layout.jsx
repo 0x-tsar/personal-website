@@ -32,6 +32,7 @@ export const Container = styled(BasicCss)`
 
 const Layout = () => {
   const [currentPage, setCurrentPage] = useState("Home");
+  document.title = "Gustavo Fernandes";
 
   const changePage = (newPage) => {
     setCurrentPage(newPage);
