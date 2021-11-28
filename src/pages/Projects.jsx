@@ -301,9 +301,9 @@ const Projects = () => {
             <p>{item.description}</p>
             {item.website ? (
               <a href={item.website}>
-                <br></br>
-                <br></br>
                 Dice game, deployed to Mumbai Testnet.
+                <br></br>
+                <br></br>
               </a>
             ) : (
               ""
