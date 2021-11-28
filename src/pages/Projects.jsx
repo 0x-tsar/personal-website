@@ -301,7 +301,7 @@ const Projects = () => {
             <p>{item.description}</p>
             <br />
             <a href="{item.website && item.website}">
-              Dice game, deployed to Mumbai Testnet
+              Dice game, deployed to Mumbai Testnet.
             </a>
             <div style={{ display: "flex", justifyContent: "center" }}>
               {item.image}
