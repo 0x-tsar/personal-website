@@ -23,7 +23,8 @@ export const Post = styled.div`
 const projects = [
   {
     title: "Easy Lottery, a blockchain dice game",
-    description: "A dice game using Chanlink to provide random numbers",
+    description:
+      "A dice game using Chanlink to provide random numbers made with React",
     website: "https://lottery-chainlink.herokuapp.com/",
     image: (
       <img
