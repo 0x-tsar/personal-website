@@ -302,7 +302,7 @@ const Projects = () => {
             <br />
             <br />
             {item.website ? (
-              <a href="{item.website && item.website}">
+              <a href={item.website ? item.website : ""}>
                 Dice game, deployed to Mumbai Testnet.
               </a>
             ) : (
