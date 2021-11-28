@@ -300,9 +300,14 @@ const Projects = () => {
             <h4>{item.title}</h4>
             <p>{item.description}</p>
             <br />
-            <a href="{item.website && item.website}">
-              Dice game, deployed to Mumbai Testnet.
-            </a>
+            <br />
+            {item.website ? (
+              <a href="{item.website && item.website}">
+                Dice game, deployed to Mumbai Testnet.
+              </a>
+            ) : (
+              ""
+            )}
             <div style={{ display: "flex", justifyContent: "center" }}>
               {item.image}
             </div>
