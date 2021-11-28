@@ -300,7 +300,7 @@ const Projects = () => {
             <h4>{item.title}</h4>
             <p>{item.description}</p>
             {item.website ? (
-              <a href={item.website ? item.website : ""}>
+              <a href={item.website}>
                 <br></br>
                 <br></br>
                 &nbsp; Dice game, deployed to Mumbai Testnet.
