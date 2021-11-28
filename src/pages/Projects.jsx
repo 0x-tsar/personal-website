@@ -299,7 +299,7 @@ const Projects = () => {
           <Post key={key}>
             <h4>{item.title}</h4>
             <p>{item.description}</p>
-            <p>{item.website && item.website}</p>
+            <a>{item.website && item.website}</a>
             <div style={{ display: "flex", justifyContent: "center" }}>
               {item.image}
             </div>
