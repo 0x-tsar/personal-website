@@ -22,6 +22,17 @@ export const Post = styled.div`
 
 const projects = [
   {
+    // title: "Easy Lottery, a ",
+    description: "A ",
+    image: (
+      <img
+        src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/dice.png"
+        width="100%"
+        alt=""
+      ></img>
+    ),
+  },
+  {
     title: "Books IPFS/ FLEEK/ BLOCKCHAIN",
     description:
       "Interacting with IPFS through Fleek and using the blockchain to store information about the book's details. Soon will be adding project repository",
