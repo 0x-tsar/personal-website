@@ -300,7 +300,9 @@ const Projects = () => {
             <h4>{item.title}</h4>
             <p>{item.description}</p>
             <br />
-            <a>{item.website && item.website}</a>
+            <a href="{item.website && item.website}">
+              Dice game, deployed to Mumbai Testnet
+            </a>
             <div style={{ display: "flex", justifyContent: "center" }}>
               {item.image}
             </div>
