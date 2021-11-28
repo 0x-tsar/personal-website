@@ -303,7 +303,7 @@ const Projects = () => {
               <a href={item.website}>
                 <br></br>
                 <br></br>
-                &nbsp; Dice game, deployed to Mumbai Testnet.
+                Dice game, deployed to Mumbai Testnet.
               </a>
             ) : (
               ""
