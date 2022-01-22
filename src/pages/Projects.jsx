@@ -104,7 +104,7 @@ const projects = [
       "A clone of a known sports website, I used NextJS and styled-components for structuring, still in progress.",
     image: (
       <img
-        src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/Captura%20de%20Tela%202021-10-15%20a%CC%80s%2017.55.48.png"
+        src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/ss2.png"
         width="100%"
         alt=""
       ></img>
