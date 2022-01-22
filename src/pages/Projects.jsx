@@ -22,6 +22,19 @@ export const Post = styled.div`
 
 const projects = [
   {
+    title: "Tiktok Clone",
+    description:
+      "A Tiktok homepage done with NextJS and styled-components",
+    website: "https://tiktok-next.herokuapp.com/",
+    image: (
+      <img
+        src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/ss1.png"
+        width="100%"
+        alt=""
+      ></img>
+    ),
+  },
+  {
     title: "Easy Lottery, a blockchain dice game",
     description:
       "A dice game using Chanlink to provide random numbers made with React",
