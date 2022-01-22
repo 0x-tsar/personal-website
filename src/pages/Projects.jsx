@@ -314,7 +314,7 @@ const Projects = () => {
             <p>{item.description}</p>
             {item.website ? (
               <a href={item.website}>
-                Dice game, deployed to Mumbai Testnet.
+                 {item.title + " website"}
                 <br></br>
                 <br></br>
               </a>
