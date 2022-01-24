@@ -24,7 +24,7 @@ const projects = [
   {
     title: "Tiktok Clone",
     description:
-      "A Tiktok homepage done with NextJS and styled-components",
+      "A Tiktok homepage done with NextJS and styled-components, for developing tools were used ESLint, Prettier and EditorConfig",
     website: "https://tiktok-next.herokuapp.com/",
     image: (
       <img
@@ -33,6 +33,7 @@ const projects = [
         alt=""
       ></img>
     ),
+    github: "https://github.com/BronzeDisc/tiktok-clone",
   },
   {
     title: "Easy Lottery, a blockchain dice game",
@@ -314,7 +315,7 @@ const Projects = () => {
             <p>{item.description}</p>
             {item.website ? (
               <a href={item.website}>
-                 {item.title + " website"}
+                {item.title + " website"}
                 <br></br>
                 <br></br>
               </a>
