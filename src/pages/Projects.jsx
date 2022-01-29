@@ -136,6 +136,7 @@ const projects = [
         src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/gif8.gif"
         // src="./images/gif8.gif"
         width="100%"
+        alt=""
       ></img>
     ),
   },
