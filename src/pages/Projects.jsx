@@ -5,11 +5,8 @@ export const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
   margin: 100px;
-  /* flex-direction: column; */
   margin-top: 100px;
   justify-content: center;
-  /* align-items: center; */
-  //
 `;
 
 export const Post = styled.div`
@@ -17,10 +14,6 @@ export const Post = styled.div`
   font-size: 22px;
   margin-bottom: 20px;
 `;
-
-{
-  /* <img src="erc721.gif" width="1500px" height="700px"></img>; */
-}
 
 const projects = [
   {
@@ -154,6 +147,7 @@ const projects = [
       <img
         src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/gif9.gif"
         // src=".images//gif9.gif"
+        alt=""
         width="100%"
       ></img>
     ),
@@ -179,6 +173,7 @@ const projects = [
         // src="./images/smp.png"
         width="100%"
         height="730px"
+        alt=""
       ></img>
     ),
   },
@@ -192,6 +187,7 @@ const projects = [
         src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/gif11.gif"
         // src="./images/gif11.gif"
         width="100%"
+        alt=""
       ></img>
     ),
   },
@@ -205,6 +201,7 @@ const projects = [
         src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/finding.png"
         // src="./images/finding.png"
         width="100%"
+        alt=""
       ></img>
     ),
   },
@@ -219,6 +216,7 @@ const projects = [
         src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/gif12.gif"
         // src="./images/gif12.gif"
         height="1000px"
+        alt=""
       ></img>
     ),
   },
@@ -232,6 +230,7 @@ const projects = [
         // src="./images/gif17.gif"
         width="100%"
         height="700px"
+        alt=""
       ></img>
     ),
   },
@@ -240,7 +239,10 @@ const projects = [
     description:
       "This is a better Tinder bot buit from scratch with new features, now it's able to change cities when no one is found at the city you are located at, the bot changes the city according to the cities I want to go to and starts the process normally again, I also solved a loop problem, after a certain loop time, the bot would break because of 'Inifite Loop', so I created a small loop to go for 600 profiles then break the small loop and count +1 on the bigger one, like a small gear moving a bigger one, worked perfectly! in 2 weeks it got more than 1100 matches and goes on non-stop. This bot made more than 4000 matches before I turned it off.",
     image: (
-      <img src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/gif15.gif"></img>
+      <img
+        src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/gif15.gif"
+        alt=""
+      ></img>
     ),
     // <img src="./images/gif15.gif"></img>
   },
@@ -249,7 +251,10 @@ const projects = [
     description:
       "Built with Javascript and TensorFlow and trained on web client-side. (Just CNN and Dense layers used).",
     image: (
-      <img src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/gif5.gif"></img>
+      <img
+        src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/gif5.gif"
+        alt=""
+      ></img>
       // <img src="./images/gif5.gif"></img>
     ),
   },
@@ -265,7 +270,10 @@ const projects = [
     description:
       "Device Generates random colors and depending on the color picked it sends to Firebase database the data and predicts on Neural Network client side on web (HTML,CSS,JS,TensorFlow) and sends result predicted back to device.",
     image: (
-      <img src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/ggif3.gif"></img>
+      <img
+        src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/ggif3.gif"
+        alt=""
+      ></img>
       // <img src="./images/ggif3.gif"></img>
     ),
   },
@@ -285,6 +293,7 @@ const projects = [
         src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/ggif1.gif"
         // src="./images/ggif1.gif"
         width="100%"
+        alt=""
       ></img>
     ),
   },
@@ -297,6 +306,7 @@ const projects = [
         src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/gif7.gif"
         // src="./images/gif7.gif"
         width="100%"
+        alt=""
       ></img>
     ),
   },
@@ -306,7 +316,10 @@ const projects = [
     description:
       "Simple chat for Android made with java with functionalities like last seen, message visualized and also emojis avaiable.",
     image: (
-      <img src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/gif13.gif"></img>
+      <img
+        src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/gif13.gif"
+        alt=""
+      ></img>
       // <img src="./images/gif13.gif"></img>
     ),
   },
@@ -320,6 +333,7 @@ const projects = [
         src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/gif14.gif"
         // src="./images/gif14.gif"
         width="100%"
+        alt=""
       ></img>
     ),
   },
@@ -329,6 +343,7 @@ const Projects = () => {
   return (
     <Container>
       {projects.map((item, key) => {
+        console.log(item);
         return (
           <Post key={key}>
             <h4>{item.title}</h4>

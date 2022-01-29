@@ -8,8 +8,6 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   margin-top: 30px;
-  /* justify-content: center; */
-  /* background-color: green; */
 `;
 
 const Bookshelf = () => {
