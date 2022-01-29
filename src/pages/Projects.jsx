@@ -18,7 +18,9 @@ export const Post = styled.div`
   margin-bottom: 20px;
 `;
 
-{/* <img src="erc721.gif" width="1500px" height="700px"></img>; */}
+{
+  /* <img src="erc721.gif" width="1500px" height="700px"></img>; */
+}
 
 const projects = [
   {
@@ -161,12 +163,12 @@ const projects = [
     title: "Door Detector",
     description:
       "Model built on Python and Android app with Java, it sends a notification when the door is opened or closed to device. The door is checked by a webcam (On video the sound can be heard saying 'The Door was opened' and 'The door was closed').",
-    image: (
+    image:
       // <img
-      src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/gif10.gif"
-      // ></img>
-      // <img src="./images/gif10.gif"></img>
-    ),
+      (src =
+        "https://storage.cloud.google.com/staging.recycler-teste.appspot.com/gif10.gif"),
+    // ></img>
+    // <img src="./images/gif10.gif"></img>
   },
 
   {
@@ -239,12 +241,12 @@ const projects = [
     title: "Tinder WebScrapping",
     description:
       "This is a better Tinder bot buit from scratch with new features, now it's able to change cities when no one is found at the city you are located at, the bot changes the city according to the cities I want to go to and starts the process normally again, I also solved a loop problem, after a certain loop time, the bot would break because of 'Inifite Loop', so I created a small loop to go for 600 profiles then break the small loop and count +1 on the bigger one, like a small gear moving a bigger one, worked perfectly! in 2 weeks it got more than 1100 matches and goes on non-stop. This bot made more than 4000 matches before I turned it off.",
-    image: (
+    image:
       // <img
-      src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/gif15.gif"
-      // ></img>
-      // <img src="./images/gif15.gif"></img>
-    ),
+      (src =
+        "https://storage.cloud.google.com/staging.recycler-teste.appspot.com/gif15.gif"),
+    // ></img>
+    // <img src="./images/gif15.gif"></img>
   },
   {
     title: "Simple Classification Model",
@@ -276,7 +278,7 @@ const projects = [
   //   title: "Sample Picker",
   //   description:
   //     "Simple sample picker to train later built on Java, data already classified.",
-    image: <img src="ggif2.gif" width="100%"></img>,
+  // image: <img src="ggif2.gif" width="100%"></img>,
   // },
 
   {
