@@ -159,7 +159,10 @@ const projects = [
     description:
       "Model built on Python and Android app with Java, it sends a notification when the door is opened or closed to device. The door is checked by a webcam (On video the sound can be heard saying 'The Door was opened' and 'The door was closed').",
     image: (
-      <img src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/gif10.gif"></img>
+      <img
+        src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/gif10.gif"
+        alt=""
+      ></img>
     ),
     // <img src="./images/gif10.gif"></img>
   },
