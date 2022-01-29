@@ -39,11 +39,11 @@ const projects = [
   {
     title: "Easy Lottery, a blockchain dice game",
     description:
-      "A dice game using Chanlink to provide random numbers made with React",
+      "A dice game using Chanlink to provide random numbers made with React (USE MUMBAI NETWORK TO INTERACT)",
     website: "https://lottery-chainlink.herokuapp.com/",
     image: (
       <img
-        src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/dice.png"
+        src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/link.png"
         // src="./images/chainlink.png"
         width="100%"
         alt=""
