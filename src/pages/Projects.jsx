@@ -347,7 +347,6 @@ const Projects = () => {
   return (
     <Container>
       {projects.map((item, key) => {
-        console.log(item);
         return (
           <Post key={key}>
             <h4>{item.title}</h4>
@@ -372,12 +371,6 @@ const Projects = () => {
             ) : (
               <div></div>
             )}
-
-            {
-              {
-                // /* <img src="./logo512.png" alt="" width={100} /> */
-              }
-            }
           </Post>
         );
       })}
@@ -386,3 +379,5 @@ const Projects = () => {
 };
 
 export default Projects;
+
+// export default Projects;

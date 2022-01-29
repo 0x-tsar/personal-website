@@ -1,18 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import {
-  BrowserRouter,
-  BrowserRouter as Router,
-  Route,
-  Switch,
-} from "react-router-dom";
-import { Link } from "react-router-dom";
 
-import App from "../App";
-import Home from "../pages/Home";
-import Projects from "../pages/Projects";
-import Quotes from "../pages/Quotes";
-import BookShelf from "../pages/Bookshelf";
+import { Link } from "react-router-dom";
 
 export const Container = styled.div`
   grid-area: header;
@@ -85,16 +74,6 @@ const Header = ({ changePage }) => {
             My Projects
           </Link>
         </li>
-
-        {/* <BrowserRouter>
-          <Route component={Home} path="/" exact />
-          <Route component={BookShelf} path="/bookshelf" />
-          <Route component={Quotes} path="/quotes" />
-        </BrowserRouter> */}
-
-        {/* <li>
-          <a href="about">My Projects</a>
-        </li> */}
       </Menu>
     </Container>
   );
