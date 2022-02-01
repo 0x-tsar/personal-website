@@ -74,7 +74,7 @@ const Bookshelf = () => {
       <br></br>
       <br></br>
       <br></br>
-      <div style={{ margin: "0 20px" }}> [in construction...]</div>
+      <div style={{ margin: "40px 0" }}> [in construction...]</div>
     </Container>
   );
 };

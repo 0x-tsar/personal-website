@@ -53,7 +53,7 @@ const Quotes = () => {
         })}
 
         <div
-          style={{ marginTop: 100, position: "relative", marginBottom: "20px" }}
+          style={{ marginTop: 100, position: "relative", marginBottom: "40px" }}
         >
           {randomQuote ? (
             <div>
