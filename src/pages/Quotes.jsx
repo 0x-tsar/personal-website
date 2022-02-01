@@ -61,7 +61,9 @@ const Quotes = () => {
               </small>
               :<br></br>
               <br></br>`{randomQuote.text}` <br></br>
-              <strong>- {randomQuote.author}</strong> <br></br>
+              <strong style={{ marginBottom: "10px" }}>
+                - {randomQuote.author}
+              </strong>
             </div>
           ) : (
             <div></div>
