@@ -17,7 +17,7 @@ export const Post = styled.div`
 
 const projects = [
   {
-    title: "Tiktok Clone",
+    title: "DeFi Bank",
     description:
       "A simple DeFi bank made with NextJS, Solidity, Hardhat and Styled-Components",
     website: "https://bank-defi.vercel.app/",
