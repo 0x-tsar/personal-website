@@ -52,7 +52,9 @@ const Quotes = () => {
           );
         })}
 
-        <div style={{ marginTop: 100, position: "relative" }}>
+        <div
+          style={{ marginTop: 100, position: "relative", marginBottom: "20px" }}
+        >
           {randomQuote ? (
             <div>
               {"Random Quote"}
@@ -61,9 +63,7 @@ const Quotes = () => {
               </small>
               :<br></br>
               <br></br>`{randomQuote.text}` <br></br>
-              <strong style={{ marginBottom: "10px" }}>
-                - {randomQuote.author}
-              </strong>
+              <strong>- {randomQuote.author}</strong>
             </div>
           ) : (
             <div></div>
