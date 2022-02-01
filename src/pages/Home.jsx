@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <Container>
       <div>
-        &nbsp; I'm a self taught programmer, Currently focusing on the Crytpo
+        &nbsp; I'm a self taught programmer, Currently focusing on the Crypto
         world. Throughout the years I created Android Apps with Java, models of
         Deep Learning with Python, AI with Javascript, but currently I'm focused
         on Crypto using technologies like Web3, Ethers, Truffle, Hardhat,
