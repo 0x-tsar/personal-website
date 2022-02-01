@@ -74,7 +74,11 @@ const Bookshelf = () => {
       <br></br>
       <br></br>
       <br></br>
-      <div style={{ marginBottom: "100px" }}> [in construction...]</div>
+      <div style={{ marginBottom: "100px" }}>
+        [in construction...]
+        <br></br>
+        <br></br>
+      </div>
     </Container>
   );
 };
