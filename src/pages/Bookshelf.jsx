@@ -71,10 +71,16 @@ const Bookshelf = () => {
         <br></br>
         <br></br>
       </div>
+      <div>
+        <p>O Homem Mais Rico Da Babilônia</p>
+        <strong>- George S. Clason</strong>
+        <br></br>
+        <br></br>
+      </div>
       <br></br>
       <br></br>
       <br></br>
-      <div style={{ marginBottom: "100px" }}>
+      <div style={{ marginBottom: "200px" }}>
         [in construction...]
         <br></br>
         <br></br>
