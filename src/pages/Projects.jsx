@@ -17,6 +17,22 @@ export const Post = styled.div`
 
 const projects = [
   {
+    title: "Crypto Prices from Chainlink",
+    description:
+      "Getting trustable and verifiable prices from Chainlink oracle. Made with NextJS, Solidity, Hardhat and Styled-Components",
+    website:
+      "https://oracle-coins-price-ienip3rm0-contatogustavofernandes-hotmailcom.vercel.app/",
+    image: (
+      <img
+        src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/ss4.png"
+        // src="./images/ss1.png"
+        width="100%"
+        alt=""
+      ></img>
+    ),
+    github: "https://github.com/BronzeDisc/oracle-coins-price",
+  },
+  {
     title: "DeFi Bank",
     description:
       "A simple DeFi bank made with NextJS, Solidity, Hardhat and Styled-Components",
