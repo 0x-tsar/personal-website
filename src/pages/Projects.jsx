@@ -50,7 +50,7 @@ const projects = [
     title: "Tiktok Clone",
     description:
       "A Tiktok homepage done with NextJS and styled-components, for developing tools were used ESLint, Prettier and EditorConfig",
-    website: "https://tiktok-next.herokuapp.com/",
+    website: "https://tiktok-clone-ruby.vercel.app/",
     image: (
       <img
         src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/ss1.png"
