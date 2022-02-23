@@ -51,7 +51,8 @@ const Header = ({ changePage }) => {
           to="/"
           style={{
             textDecoration: "none",
-            //  color: "blueviolet"
+            // color: "blueviolet",
+            color: "black",
           }}
         >
           Gustavo Fernandes
