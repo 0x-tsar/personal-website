@@ -19,7 +19,7 @@ const projects = [
   {
     title: "Gaulês Dicionário (Gaulês Verso)",
     description:
-      "A vocabulary of a famous CS-GO streamer, Gaulês. Here I used NextJS, Styled-Components, MongoDB, Mongoose, Redis for caching and a search engine for easy finding meanings.",
+      "A vocabulary of a famous CS-GO streamer, Gaulês. Here I used NextJS, Styled-Components, MongoDB, Mongoose, Redis for caching and a search engine for easily query the database for meanings. On the backend I used Joi for parsing and cleaning the input.",
     website:
       "https://gaules-verso-43ucfnjly-contatogustavofernandes-hotmailcom.vercel.app/",
     image: (

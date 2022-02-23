@@ -47,7 +47,13 @@ const Header = ({ changePage }) => {
   return (
     <Container>
       <Logo>
-        <Link to="/" style={{ textDecoration: "none", color: "blueviolet" }}>
+        <Link
+          to="/"
+          style={{
+            textDecoration: "none",
+            //  color: "blueviolet"
+          }}
+        >
           Gustavo Fernandes
         </Link>
       </Logo>
