@@ -17,6 +17,21 @@ export const Post = styled.div`
 
 const projects = [
   {
+    title: "Gaulês Dicionário (Gaulês Verso)",
+    description: "A vocabulary of a famous CS-GO streamer, Gaulês",
+    website:
+      "https://gaules-verso-43ucfnjly-contatogustavofernandes-hotmailcom.vercel.app/",
+    image: (
+      <img
+        src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/ss5.png"
+        // src="./images/ss1.png"
+        width="100%"
+        alt=""
+      ></img>
+    ),
+    github: "https://github.com/BronzeDisc/gaules-verso",
+  },
+  {
     title: "Crypto Prices from Chainlink",
     description:
       "Getting trustable and verifiable prices from Chainlink oracle. Made with NextJS, Solidity, Hardhat and Styled-Components",
