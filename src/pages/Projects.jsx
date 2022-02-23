@@ -298,7 +298,7 @@ const projects = [
       "Built with Javascript and TensorFlow and trained on web client-side. (No type of RNN were used here).",
     image: (
       <img
-        src="./images/gif6.gif"
+        src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/gif6.gif"
         width="100%"
         alt="caps deep learning python"
       ></img>
