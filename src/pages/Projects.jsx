@@ -18,7 +18,8 @@ export const Post = styled.div`
 const projects = [
   {
     title: "Gaulês Dicionário (Gaulês Verso)",
-    description: "A vocabulary of a famous CS-GO streamer, Gaulês",
+    description:
+      "A vocabulary of a famous CS-GO streamer, Gaulês. Here I used NextJS, Styled-Components, MongoDB, Mongoose, Redis for caching and a search engine for easy finding meanings.",
     website:
       "https://gaules-verso-43ucfnjly-contatogustavofernandes-hotmailcom.vercel.app/",
     image: (
