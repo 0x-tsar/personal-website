@@ -296,7 +296,13 @@ const projects = [
     title: "Sequence of bottle caps",
     description:
       "Built with Javascript and TensorFlow and trained on web client-side. (No type of RNN were used here).",
-    // image: <img src="./images/gif6.gif" width="100%"></img>,
+    image: (
+      <img
+        src="./images/gif6.gif"
+        width="100%"
+        alt="caps deep learning python"
+      ></img>
+    ),
   },
 
   {
