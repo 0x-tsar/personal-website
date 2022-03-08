@@ -17,6 +17,20 @@ export const Post = styled.div`
 
 const projects = [
   {
+    title: "Super Mario Cards",
+    description:
+      "NFT cards visualizer built with NextJS, Styled-Components, Hardhat and Ethers.",
+    website: "https://cards-super-mario.vercel.app/",
+    image: (
+      <img
+        src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/s6.png"
+        width="100%"
+        alt=""
+      ></img>
+    ),
+    github: "https://github.com/BronzeDisc/cards-super-mario",
+  },
+  {
     title: "Gaulês Dicionário (Gaulês Verso)",
     description:
       "A vocabulary of a famous CS-GO streamer, Gaulês. Here I used NextJS, Styled-Components, MongoDB, Mongoose, Redis for caching and a search engine for easily query the database for meanings. On the backend I used Joi for parsing and cleaning the input.",
