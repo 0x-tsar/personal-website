@@ -19,7 +19,7 @@ const projects = [
   {
     title: "Super Mario Cards (MUMBAI TEST NETWORK)",
     description:
-      "NFT cards visualizer built with NextJS, Styled-Components, Hardhat and Ethers. Nfts hosted on IPFS. Change the network to Mumbai Test",
+      "NFT cards visualizer built with NextJS, Styled-Components, Hardhat and Ethers. Nfts hosted on IPFS, Opensea compatible. Change the network to Mumbai Test",
     website: "https://cards-super-mario.vercel.app/",
     image: (
       <img
