@@ -17,7 +17,7 @@ export const Post = styled.div`
 
 const projects = [
   {
-    title: "Super Mario Cards",
+    title: "Super Mario Cards, (MUMBAI TEST NETWORK)",
     description:
       "NFT cards visualizer built with NextJS, Styled-Components, Hardhat and Ethers.",
     website: "https://cards-super-mario.vercel.app/",
