@@ -37,7 +37,7 @@ const projects = [
     website: "https://pokemon-ssr-ssg.vercel.app/",
     image: (
       <img
-        src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/s7.png"
+        src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/ss7.png"
         width="100%"
         alt=""
       ></img>
