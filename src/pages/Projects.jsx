@@ -33,7 +33,7 @@ const projects = [
   {
     title: "Pokemon viewer calling API using SSR and CSR",
     description:
-      "I built this website to better understand the NextJS ways of rendering",
+      "I built this website to better understand the NextJS ways of rendering. It's Responsive and really good for mobile",
     website: "https://pokemon-ssr-ssg.vercel.app/",
     image: (
       <img
