@@ -17,6 +17,21 @@ export const Post = styled.div`
 
 const projects = [
   {
+    title: "Chainlink V2 and Typescript (RINKEBY TEST NETWORK)",
+    description:
+      "A random number generator getting the numbers from an Oracle and returning in a nice interface built with React and Typescript. Change your network to Rinkeby",
+    website: "https://chainlink-v2.vercel.app/",
+    image: (
+      <img
+        src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/s8.png"
+        width="100%"
+        alt=""
+      ></img>
+    ),
+    github: "https://github.com/BronzeDisc/chainlink-v2",
+  },
+
+  {
     title: "Super Mario Cards (MUMBAI TEST NETWORK)",
     description:
       "NFT cards visualizer built with NextJS, Styled-Components, Hardhat and Ethers. Nfts hosted on IPFS, Opensea compatible. Change the network to Mumbai Test",
