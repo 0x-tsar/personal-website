@@ -23,7 +23,7 @@ const projects = [
     website: "https://chainlink-v2.vercel.app/",
     image: (
       <img
-        src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/s8.png"
+        src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/ss8.png"
         width="100%"
         alt=""
       ></img>
