@@ -77,6 +77,12 @@ const Bookshelf = () => {
         <br></br>
         <br></br>
       </div>
+      <div>
+        <p>Buracos Negros</p>
+        <strong>- Stephen Hawking</strong>
+        <br></br>
+        <br></br>
+      </div>
       <br></br>
       <br></br>
       <br></br>
