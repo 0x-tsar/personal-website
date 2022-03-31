@@ -18,7 +18,8 @@ export const Post = styled.div`
 const projects = [
   {
     title: "Soccer NFT Cards",
-    description: "Soccer Cards, Opensea compatible (MUMBAI NETWORK ONLY)",
+    description:
+      "Soccer Cards, Opensea compatible (MUMBAI NETWORK ONLY, update to mumbai network and reload the page )",
     website: "https://soccer-cards.vercel.app/market",
     image: (
       <img
