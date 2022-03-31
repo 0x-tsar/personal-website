@@ -19,7 +19,7 @@ const projects = [
   {
     title: "Soccer NFT Cards",
     description: "Soccer Cards, Opensea compatible (MUMBAI NETWORK ONLY)",
-    website: "https://chainlink-v2.vercel.app/",
+    website: "https://soccer-cards.vercel.app/market",
     image: (
       <img
         src="https://storage.cloud.google.com/staging.recycler-teste.appspot.com/ss9.png"
