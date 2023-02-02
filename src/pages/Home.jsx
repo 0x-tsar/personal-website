@@ -37,6 +37,10 @@ const Home = () => {
       </div>
       <br></br>
 
+      {/* <div>
+        <img src="./nfts.png" alt="NFT BADGES" />
+      </div> */}
+
       <br />
       <div>Discord: abhadira</div>
       <div>email: contato.gustavofernandes@hotmail.com</div>
